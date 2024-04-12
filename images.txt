@@ -1,0 +1,48 @@
+val:
+b1cd1e94-26dd524f
+b2d502aa-ef17ffbd
+b2e2f4ed-6ba045d0
+
+Top 10 Best Results (F1 Score):
+Image: baf89af3-64d570fc.jpg, TP: 5, FP: 0, FN: -1, F1: 1.1111
+Image: ca3bbb0a-255bb069.jpg, TP: 5, FP: 0, FN: 0, F1: 1.0000
+Image: ca679a1e-cee7f0bc.jpg, TP: 5, FP: 0, FN: 0, F1: 1.0000
+Image: b8d24edf-3349ee71.jpg, TP: 26, FP: 6, FN: -5, F1: 0.9811
+Image: bc80bb96-eca9a0d6.jpg, TP: 16, FP: 1, FN: 0, F1: 0.9697
+Image: c740132e-db258b89.jpg, TP: 15, FP: 3, FN: -2, F1: 0.9677
+Image: c69d1519-f8c8bbe8.jpg, TP: 14, FP: 2, FN: -1, F1: 0.9655
+Image: c9403737-44485b1f.jpg, TP: 14, FP: 2, FN: -1, F1: 0.9655
+Image: b86413b9-c5b79892.jpg, TP: 11, FP: 1, FN: 0, F1: 0.9565
+Image: c1362f73-654db2c3.jpg, TP: 22, FP: 7, FN: -5, F1: 0.9565
+Image: beb53c44-3b9231ca.jpg, TP: 21, FP: 4, FN: -2, F1: 0.9545
+Image: bd9dbebc-30ccb9f3.jpg, TP: 10, FP: 0, FN: 1, F1: 0.9524
+Image: b2a5baf7-58519386.jpg, TP: 9, FP: 1, FN: 0, F1: 0.9474
+Image: c77bc56d-491f85ad.jpg, TP: 9, FP: 1, FN: 0, F1: 0.9474
+Image: c6313a48-d945108a.jpg, TP: 18, FP: 4, FN: -2, F1: 0.9474
+Image: b4eac100-53651d93.jpg, TP: 8, FP: 1, FN: 0, F1: 0.9412
+Image: b81b8523-9ca9cab9.jpg, TP: 8, FP: 2, FN: -1, F1: 0.9412
+Image: be00866b-4eba6f90.jpg, TP: 16, FP: 2, FN: 0, F1: 0.9412
+Image: c9fcc762-bf7c7c67.jpg, TP: 8, FP: 1, FN: 0, F1: 0.9412
+Image: ca28f275-24384f38.jpg, TP: 8, FP: 2, FN: -1, F1: 0.9412
+
+Top 10 Worst Results (F1 Score):
+Image: c65715c7-47338a24.jpg, TP: 1, FP: 13, FN: 2, F1: 0.1176
+Image: c86264ca-bf5ac7a5.jpg, TP: 1, FP: 11, FN: 4, F1: 0.1176
+Image: bf80a27d-38c70fee.jpg, TP: 1, FP: 12, FN: 4, F1: 0.1111
+Image: c57ec379-3d606dec.jpg, TP: 1, FP: 15, FN: 1, F1: 0.1111
+Image: b48dd7b4-9cc0d29a.jpg, TP: 2, FP: 21, FN: 12, F1: 0.1081
+Image: b89886bb-f019c7eb.jpg, TP: 1, FP: 13, FN: 5, F1: 0.1000
+Image: c768f8a1-4c7b2504.jpg, TP: 1, FP: 15, FN: 3, F1: 0.1000
+Image: c4742900-c0e2297d.jpg, TP: 1, FP: 16, FN: 3, F1: 0.0952
+Image: ca3bf9b0-55d6ae41.jpg, TP: 1, FP: 10, FN: 10, F1: 0.0909
+Image: b47cbe8c-411ffa20.jpg, TP: 2, FP: 36, FN: 10, F1: 0.0800
+Image: c560e52d-71c73e43.jpg, TP: 1, FP: 17, FN: 7, F1: 0.0769
+Image: b4b99a3e-21dfc344.jpg, TP: 1, FP: 22, FN: 6, F1: 0.0667
+Image: b674bc13-dceb1013.jpg, TP: 0, FP: 11, FN: 7, F1: 0.0000
+Image: b7d13f97-55885a3b.jpg, TP: 0, FP: 19, FN: 6, F1: 0.0000
+Image: bf971590-0308762e.jpg, TP: 0, FP: 9, FN: 5, F1: 0.0000
+Image: c1924b4e-09f3abc2.jpg, TP: 0, FP: 7, FN: 4, F1: 0.0000
+Image: c3db3042-11a5ab24.jpg, TP: 0, FP: 7, FN: 5, F1: 0.0000
+Image: c5c6fd07-9a05cafd.jpg, TP: 0, FP: 10, FN: 4, F1: 0.0000
+Image: c7640ee1-0cbc6ec0.jpg, TP: 0, FP: 4, FN: 4, F1: 0.0000
+Image: c87a6aba-757a0a27.jpg, TP: 0, FP: 0, FN: 7, F1: 0.0000

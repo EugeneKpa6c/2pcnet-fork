@@ -1,0 +1,46 @@
+docker build -t 2pcnet -f C:\Users\ivanin.em\Desktop\2pcnet\Dockerfile .
+docker run --gpus all -it 2pcnet
+
+
+===Train===
+python3 train_net.py \
+      --num-gpus 1 \
+      --config configs/faster_rcnn_R50_bdd100k.yaml\
+      OUTPUT_DIR output/bdd100k
+
+===Evaluation===
+python3 train_net.py \
+      --eval-only \
+      --config configs/faster_rcnn_R50_bdd100k.yaml \
+      MODEL.WEIGHTS twophase/checkpoint/model_final.pth
+
+
+python3 eval.py \
+      --eval-only \
+      --config configs/faster_rcnn_R50_bdd100k.yaml \
+      MODEL.WEIGHTS twophase/checkpoint/model_final.pth
+
+python3 analiz.py \
+      --eval-only \
+      --config configs/faster_rcnn_R50_bdd100k.yaml \
+      MODEL.WEIGHTS twophase/checkpoint/model_final.pth
+
+
+
+===Metrics===
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.239
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.467
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.211
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.095
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.260
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.433
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.199
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.342
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.362
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.198
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.394
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.530
+[02/29 13:34:17 d2.engine.defaults]: Evaluation results for bdd100k_night_val in csv format:
+[02/29 13:34:17 d2.evaluation.testing]: copypaste: Task: bbox
+[02/29 13:34:17 d2.evaluation.testing]: copypaste: AP,AP50,AP75,APs,APm,APl
+[02/29 13:34:17 d2.evaluation.testing]: copypaste: 23.8772,46.6852,21.0838,9.5233,26.0149,43.2597
